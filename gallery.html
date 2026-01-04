@@ -1,61 +1,58 @@
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gallery · Selected Portraits</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery · Portraits</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header">
-<div class="container">
-<h1 class="site-title">Gallery</h1>
-<nav aria-label="Main Navigation">
-<ul class="nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="gallery.html" aria-current="page">Gallery</a></li>
-<li><a href="magazine.html">Magazine</a></li>
-</ul>
-</nav>
-</div>
-</header>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Gallery</h1>
 
-<main id="main" class="container">
-<h2>Selected Portraits</h2>
-<p class="lede">Click any portrait to view the full version.</p>
+      <nav aria-label="Main Navigation">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="magazine.html">Magazine</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main id="main" class="container">
+    <h2 class="page-title">Selected Portraits</h2>
+    <p class="lede">A small set of portraits designed for a clean interview-focused presentation.</p>
 
-<section class="gallery-grid" aria-label="Portrait Gallery">
+    <section class="gallery-grid" aria-label="Portrait Gallery">
+      <figure class="card">
+        <img src="media/1.jpg" alt="Portrait photo one" loading="lazy">
+        <figcaption>Portrait 01 —Indoor character interview</figcaption>
+      </figure>
 
-  <figure>
-    <img src="media/1.jpg" alt="Interviewee portrait facing the camera">
-    <figcaption>Interviewee One — Portrait Interview</figcaption>
-  </figure>
+      <figure class="card">
+        <img src="media/2.jpg" alt="Portrait photo two" loading="lazy">
+        <figcaption>Portrait 02 —Professional record</figcaption>
+      </figure>
 
-  <figure>
-    <img src="media/2.jpg" alt="Interviewee portrait in side light">
-    <figcaption>Interviewee Two — Documentary Portrait</figcaption>
-  </figure>
+      <figure class="card">
+        <img src="media/3.jpg" alt="Portrait photo three" loading="lazy">
+        <figcaption>Portrait 03 — Lifestyle short videos</figcaption>
+      </figure>
+    </section>
+  </main>
 
-  <figure>
-    <img src="media/3.jpg" alt="Interviewee portrait by the window">
-    <figcaption>Interviewee Three — Natural Light Portrait</figcaption>
-  </figure>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year-3"></span> Portrait Interview Studio</p>
+    </div>
+  </footer>
 
-</section>
-
-
-
-
-<footer class="site-footer">
-<div class="container">
-<p>&copy; <span id="year-3"></span> Portrait Interview Studio</p>
-</div>
-</footer>
-
-
-<script src="js/main.js" defer></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
